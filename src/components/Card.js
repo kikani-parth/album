@@ -8,13 +8,13 @@ const Card = ({ children }) => {
 const styles = StyleSheet.create({
   container: {
     borderWidth: 1,
-    borderRadius: 2,
+    borderRadius: 5,
     borderColor: '#ddd',
     borderBottomWidth: 0,
-    marginVertical: 5,
+    marginHorizontal: 5,
     marginTop: 10,
-    padding: 5,
-    backgroundColor: '#fff',
+    // padding: 5,
+    // backgroundColor: '#fff',
 
     // Shadow for IOS
     shadowColor: '#000',
