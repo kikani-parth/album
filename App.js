@@ -1,8 +1,15 @@
 import React from 'react';
-import {Text} from 'react-native';
+import { Text, View } from 'react-native';
+import Header from './src/components/Header';
+import AlbumList from './src/components/AlbumList';
 
 const App = () => {
-  return <Text>Some Text</Text>;
+  return (
+    <View>
+      <Header title="Albums" />
+      <AlbumList />
+    </View>
+  );
 };
 
 export default App;
