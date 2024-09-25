@@ -1,7 +1,8 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image } from 'react-native';
+import { View, Text, StyleSheet, Image, Linking } from 'react-native';
 import Card from './Card';
 import CardSection from './CardSection';
+import CustomButton from './CustomButton';
 
 const AlbumDetail = ({ uniqueKey, album }) => {
   //   const thumbnail_image = require('../assets/', album.thumbnail_image);
@@ -21,8 +22,16 @@ const AlbumDetail = ({ uniqueKey, album }) => {
           <Text key={uniqueKey}>{album.artist}</Text>
         </View>
       </CardSection>
+
       <CardSection>
         <Image style={styles.image} source={{ uri: album.image }} />
+      </CardSection>
+
+      <CardSection>
+        <CustomButton
+          title="Listen on YouTube"
+          onPress={() => Linking.openURL(album.url)}
+        />
       </CardSection>
     </Card>
   );
@@ -35,6 +44,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 18,
+    color: '#000',
   },
   thumbnail: {
     height: 50,
