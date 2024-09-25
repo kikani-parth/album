@@ -1,0 +1,39 @@
+{
+    "albums": [
+        {
+            "artist": "Taylor Swift",
+            "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Taylor_Swift_-_Fearless.png",
+            "thumbnail_image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Taylor_Swift_-_Fearless.png/220px-Taylor_Swift_-_Fearless.png",
+            "title": "Fearless",
+            "url": "https://en.wikipedia.org/wiki/Fearless_(Taylor_Swift_album)"
+        },
+        {
+            "artist": "Ed Sheeran",
+            "image": "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png",
+            "thumbnail_image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Divide_cover.png/220px-Divide_cover.png",
+            "title": "Divide",
+            "url": "https://en.wikipedia.org/wiki/%C3%B7_(album)"
+        },
+        {
+            "artist": "Beyoncé",
+            "image": "https://upload.wikimedia.org/wikipedia/en/9/92/Beyonce_-_Lemonade_%28Official_Album_Cover%29.png",
+            "thumbnail_image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Beyonce_-_Lemonade_%28Official_Album_Cover%29.png/220px-Beyonce_-_Lemonade_%28Official_Album_Cover%29.png",
+            "title": "Lemonade",
+            "url": "https://en.wikipedia.org/wiki/Lemonade_(Beyonc%C3%A9_album)"
+        },
+        {
+            "artist": "Adele",
+            "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Adele_-_25_%28Official_Album_Cover%29.png",
+            "thumbnail_image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Adele_-_25_%28Official_Album_Cover%29.png/220px-Adele_-_25_%28Official_Album_Cover%29.png",
+            "title": "25",
+            "url": "https://en.wikipedia.org/wiki/25_(Adele_album)"
+        },
+        {
+            "artist": "Drake",
+            "image": "https://upload.wikimedia.org/wikipedia/en/a/af/Drake_-_Views_cover.jpg",
+            "thumbnail_image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Drake_-_Views_cover.jpg/220px-Drake_-_Views_cover.jpg",
+            "title": "Views",
+            "url": "https://en.wikipedia.org/wiki/Views_(album)"
+        }
+    ]
+}
